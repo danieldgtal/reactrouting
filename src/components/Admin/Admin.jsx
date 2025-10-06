@@ -1,7 +1,11 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Navigate, Outlet } from "react-router-dom";
 
 const Admin = () => {
+	const user = { role: "admin" }; // Example user object
+	if (user.role !== "admin") {
+		return <Navigate to="/" />;
+	}
 	return (
 		<div>
 			<h2>Admin Panel</h2>

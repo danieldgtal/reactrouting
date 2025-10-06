@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Products from "./components/Products/Products";
-import SingleProduct from "./components/Products/SingleProduct";
-import Articles from "./components/Articles/Articles";
-import Admin from "./components/Admin/Admin";
-import Home from "./components/Home/Home";
-import NotFound from "./components/NotFound/NotFound";
-import Sales from "./components/Admin/Sales";
-import Sellers from "./components/Admin/Sellers";
+import Products from "./Products/Products";
+import SingleProduct from "./Products/SingleProduct";
+import Articles from "./Articles/Articles";
+import Admin from "./Admin/Admin";
+import Home from "./Home/Home";
+import NotFound from "./NotFound/NotFound";
+import Sales from "./Admin/Sales";
+import Sellers from "./Admin/Sellers";
 
 const AllRoutes = () => {
 	return (
